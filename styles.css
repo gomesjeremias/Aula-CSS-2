@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+
+}
+
+header {
+
+    margin: 24px 57px 58px 125px;
+    width: 500px;
+    height: 41.12px;
+    cursor: pointer;
+}
+
+
+
+a {
+    font-size: 28px;
+    line-height: 41.5px;
+    font-weight: 400px;
+    margin-right: 50px;
+    
+}
+
+a:nth-child(2) {
+    opacity: 0.4;
+}
+
+.caixona {
+    height: 100vh;
+    width: 99vw;
+}
+
+.container-left {
+    display: inline-block;
+    width: 53%%;
+    padding-left: 136px;
+    margin-top: 33%;
+}
+
+.container-right {
+    display: inline-block;
+    background-color: rgba(93, 93, 125, 0.16);
+    height: 182vh;
+    width: 44%;
+    position: absolute;
+    right: -4px;
+
+
+
+}
+
+img {
+    position: relative;
+  margin-top: 213px;
+    right: 130px;
+}
+
+h1 {
+    font-weight: 400px;
+    font-size: 70px;
+    line-height: 80px;
+    color: #5D5D7D;
+    width: 419px;
+    height: 160px;
+    
+}
+
+p {
+    font-size:28px;
+    line-height:48px;
+    font-weight:400px;
+    color:#5D5D7D;
+    width: 540px;
+    height: 144px;
+    margin: 15px 0;
+
+}
+button {
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 35.57px;
+    box-shadow: 0px 10px 24px 0px #9499EA;
+    color: #ffff;
+    background-color: #9499EA;
+    border: none;
+    border-radius: 32px;
+    width: 269px;
+    height: 62px;
+    cursor: pointer;
+
+}
+button:hover {
+    opacity: 0.8;
+}
+button:active {
+    opacity: 0.5;
+}
+
+body {
+
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .container-left {
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin:0;
+    }
+
+    .container-right {
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
+    }
+
+    img {
+        position: static;
+        max-width:90%;
+        padding: 20px;
+        margin: 0;
+    }
+    
+    header {
+        display: none;
+    }
+    p {
+        font-size: 20px;
+        line-height: 24px;
+        width:auto;
+        text-align: center;
+        margin: -27px 40px;
+    }
+    h1 {
+        width:263px;
+        font-size: 40px;
+        line-height: 52px;
+        text-align: center;
+        margin: 58px 50px 0 50px;
+    }
+
+    button {
+        margin: -33px auto;
+        display: block;
+    }
+
+  
+}
+
